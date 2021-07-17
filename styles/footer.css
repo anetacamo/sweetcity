@@ -1,0 +1,10 @@
+footer .fa {
+  height: 30px;
+  margin-right: 12px;
+  font-size: 24px !important;
+}
+
+a i:hover {
+  color: var(--primary);
+  transition-duration: 350ms;
+}

@@ -1,0 +1,71 @@
+/* bgs */
+
+/* policy lab */
+.policy-bg {
+  background-image: url(../04.png);
+  color: white;
+}
+.policy-bg:hover {
+  background-image: url(../02b.png);
+  transition-duration: 350ms;
+}
+.policy-bg h5 {
+  color: var(--forth);
+}
+.policy-bg button {
+  border-color: var(--third);
+  color: var(--third);
+}
+
+/* podcasts */
+.podcasts-bg {
+  background-image: url(../03.png);
+  color: black;
+}
+.podcasts-bg h5 {
+  color: var(--secondary);
+}
+.podcasts-bg:hover {
+  background-image: url(../02b.png);
+  color: white;
+  transition-duration: 350ms;
+}
+.podcasts-bg button {
+  border-color: var(--third);
+  color: var(--third);
+}
+
+/* yce */
+.yce-bg {
+  background-image: url(../01.png);
+  color: white;
+}
+.yce-bg h5 {
+  color: var(--secondary);
+}
+.yce-bg:hover {
+  background-image: url(../02b.png);
+  transition-duration: 350ms;
+}
+.yce-bg button {
+  border-color: var(--forth);
+  color: var(--forth);
+}
+
+/* em*/
+.em-bg {
+  background-image: url(../02.png);
+  color: black;
+}
+.em-bg h5 {
+  color: var(--third);
+}
+.em-bg:hover {
+  background-image: url(../02b.png);
+  transition-duration: 350ms;
+  color: white;
+}
+.em-bg button {
+  border-color: var(--secondary);
+  color: var(--secondary);
+}

@@ -1,0 +1,9 @@
+.background {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.arrow {
+  width: 60px;
+  height: 60px;
+}

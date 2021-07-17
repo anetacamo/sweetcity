@@ -1,0 +1,104 @@
+.intro {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../scbg.png);
+}
+
+.vertical {
+  -webkit-writing-mode: vertical-rl;
+  position: absolute;
+  left: -102px;
+  top: 16px;
+}
+
+.boom {
+  left: 285px;
+  max-width: 200px;
+  position: absolute;
+  top: 230px;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  display: flex;
+}
+
+.boom img {
+  position: absolute;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+  z-index: -1;
+}
+.boom h3 {
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1;
+  max-width: 140px;
+  font-size: 32px;
+}
+/*
+.intro-bg {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(../scbg.png);
+  background-clip: content-box;
+  position: absolute;
+  z-index: 0;
+  -webkit-animation: spin 4s linear infinite;
+  -moz-animation: spin 4s linear infinite;
+  animation: spin 4s linear infinite;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+*/
+@-moz-keyframes spin {
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.evtypes p {
+  font-size: 24px;
+}
+
+.evtypes .flex {
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+.evtypes-bg {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  width: 500px;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.evtypes .left,
+.evtypes .right {
+  max-width: 540px;
+}

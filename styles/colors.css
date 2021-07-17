@@ -1,0 +1,108 @@
+:root {
+  --secondary: #2b84e2;
+  --blue: #688aff;
+
+  --third: #ff4000;
+  --red: #e43e43;
+
+  --forth: #ffa700;
+  --yellow: #ff9600;
+
+  --lightgray: #f1f4ff;
+}
+
+/*blue */
+.filter-second {
+  filter: invert(42%) sepia(91%) saturate(1771%) hue-rotate(192deg)
+    brightness(93%) contrast(90%);
+}
+.bg-second {
+  background-color: var(--secondary);
+}
+.second {
+  color: var(--secondary);
+}
+
+/*red*/
+.filter-third {
+  filter: invert(33%) sepia(98%) saturate(3172%) hue-rotate(0deg)
+    brightness(99%) contrast(108%);
+}
+.bg-third {
+  background-color: var(--third);
+}
+.third {
+  color: var(--third);
+}
+
+/*yellow*/
+.filter-forth {
+  filter: invert(78%) sepia(24%) saturate(6918%) hue-rotate(358deg)
+    brightness(99%) contrast(107%);
+}
+.bg-forth {
+  background-color: var(--forth);
+}
+.forth {
+  color: var(--forth);
+}
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.filter-lightgray {
+  filter: invert(87%) sepia(15%) saturate(123%) hue-rotate(192deg)
+    brightness(104%) contrast(106%);
+}
+.lightgray {
+  color: var(--lightgray);
+}
+.bg-lightgray {
+  background-color: var(--lightgray);
+}
+
+.white {
+  color: white;
+}
+.bg-white {
+  background-color: white;
+}
+
+/* different options */
+/*blue */
+.filter-blue {
+  filter: invert(52%) sepia(81%) saturate(1741%) hue-rotate(203deg)
+    brightness(96%) contrast(110%);
+}
+.bg-blue {
+  background-color: var(--blue);
+}
+.blue {
+  color: var(--blue);
+}
+
+/*red */
+.filter-red {
+  filter: invert(26%) sepia(89%) saturate(1191%) hue-rotate(328deg)
+    brightness(112%) contrast(98%);
+}
+.bg-red {
+  background-color: var(--red);
+}
+.red {
+  color: var(--red);
+}
+
+/*yellow */
+.filter-yellow {
+  filter: invert(53%) sepia(72%) saturate(807%) hue-rotate(359deg)
+    brightness(101%) contrast(106%);
+}
+.bg-yellow {
+  background-color: var(--yellow);
+}
+.yellow {
+  color: var(--yellow);
+}
